@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Acme";
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(
+		-30deg,
+		#11998e 0%,
+		#38ef7d 50%,
+		#434343 50%,
+		rgb(168, 168, 168) 100%
+	);
+	filter: hue-rotate(-120deg);
+	animation: animate 10s linear infinite;
+}
+@keyframes animate {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
+
+.login {
+	position: relative;
+	padding: 50px;
+	width: 350px;
+	height: 480px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(120, 120, 120, 0.3);
+	border-radius: 6px;
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login .form {
+	position: relative;
+	width: 100%;
+}
+
+.login .form h3 {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.login .form .input {
+	position: relative;
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.login .form .input input {
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 2px;
+	height: 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
+}
+.login .form .input input::placeholder {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.login .form .input img {
+	position: absolute;
+	margin: 3px;
+	padding: 2px;
+}
+
+.login .form .input button {
+	width: 100%;
+	margin-top: 10px;
+	height: 30px;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	border-radius: 20px;
+	background: linear-gradient(
+		-30deg,
+		#11998e 0%,
+		#38ef7d 80%,
+		#555555 80%,
+		#696969 100%
+	);
+}
+
+.login .form .remember-me {
+	position: relative;
+	color: whitesmoke;
+	display: inline-block;
+	font-weight: 100;
+	margin-top: 5px;
+	padding: 2px;
+	cursor: pointer;
+}
+
+.login .form p {
+	margin-top: 10px;
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.login .form a {
+	color: #434343;
+}
