@@ -1,0 +1,42 @@
+/* COLORS - BASIC */
+
+.primary {
+	background-color: #8621ff;
+}
+.secondary {
+	background-color: #b6b6b6;
+	color: black;
+}
+.info {
+	background-color: #5b8aff;
+}
+.success {
+	background-color: #86ff21;
+}
+.warning {
+	background-color: #f69b49;
+}
+.danger {
+	background-color: #f6494e;
+}
+
+/* COLORS - HERO */
+.primary-hero {
+	background: linear-gradient(to right, #9d48e7, #682ddf);
+}
+.secondary-hero {
+	background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+	color: black;
+}
+.info-hero {
+	background: linear-gradient(to right, #396afc, #2948ff);
+}
+.success-hero {
+	background: linear-gradient(to right, #7ceb48, #a8e063);
+}
+.warning-hero {
+	background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.danger-hero {
+	background: linear-gradient(to right, #f00000, #dc281e);
+}
