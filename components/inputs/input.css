@@ -1,0 +1,60 @@
+body {
+	font-family: "Aladin", sans-serif;
+}
+
+input {
+	height: 30px;
+	padding-left: 15px;
+	margin: 5px;
+}
+
+.rounded {
+	border-radius: 20px;
+}
+.curved {
+	border-radius: 20px 0;
+}
+
+.small {
+	height: 1.5rem;
+	width: 10rem;
+}
+.big {
+	height: 3rem;
+	width: 15rem;
+}
+
+.with-icon {
+	position: relative;
+}
+.with-icon .col input {
+	padding-right: 45px;
+	margin: 0;
+}
+.with-icon .col .left-icon img {
+	position: absolute;
+	left: 10px;
+}
+.with-icon .col .left-icon input {
+	padding-left: 35px;
+	padding-right: 25px;
+}
+.with-icon .col .right-icon img {
+	position: absolute;
+	margin-left: -40px;
+}
+
+.border {
+	border: 1px solid;
+}
+.no-bg input {
+	background-color: white;
+	color: black;
+}
+
+.backg-white {
+	color: white !important;
+}
+.white-place input::placeholder {
+	color: white;
+}

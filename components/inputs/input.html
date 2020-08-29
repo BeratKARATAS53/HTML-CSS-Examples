@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="input.css" />
+		<link rel="stylesheet" href="../../style.css" />
+		<title>Inputs</title>
+	</head>
+	<body>
+		<h2>Shape</h2>
+		<div class="container row">
+			<div class="col">
+				<h4>Basic</h4>
+				<input type="text" placeholder="default" />
+			</div>
+			<div class="col">
+				<h4>Round</h4>
+				<input class="rounded" type="text" placeholder="round" />
+			</div>
+			<div class="col">
+				<h4>Curved</h4>
+				<input class="curved" type="text" placeholder="curved" />
+			</div>
+		</div>
+		<br />
+		<hr />
+
+		<h2>Size</h2>
+		<div class="container row">
+			<div class="col">
+				<h4>Small</h4>
+				<input class="small" type="text" placeholder="default" />
+			</div>
+			<div class="col">
+				<h4>Medium (Default)</h4>
+				<input type="text" placeholder="round" />
+			</div>
+			<div class="col">
+				<h4>Big</h4>
+				<input class="big" type="text" placeholder="curved" />
+			</div>
+		</div>
+		<br />
+		<hr />
+
+		<h2>With Icon</h2>
+		<div class="container row with-icon">
+			<div class="col">
+				<h4>Round</h4>
+				<div class="left-icon">
+					<input class="rounded" type="text" placeholder="left" />
+					<img src="../../assets/img/person.png" width="28px" />
+				</div>
+			</div>
+			<div class="col">
+				<h4>Curved</h4>
+				<div class="right-icon">
+					<input class="curved" type="text" placeholder="right" />
+					<img src="../../assets/img/password.png" width="28px" />
+				</div>
+			</div>
+		</div>
+		<br />
+		<hr />
+
+		<h2>Colored</h2>
+		<div class="container row">
+			<div class="col no-bg">
+				<h4>Border</h4>
+				<input
+					class="border border-primary"
+					type="text"
+					placeholder="default, primary"
+				/>
+				<input
+					class="border border-success rounded"
+					type="text"
+					placeholder="rounded, success"
+				/>
+				<input
+					class="border border-danger curved"
+					type="text"
+					placeholder="curved, danger"
+				/>
+			</div>
+			<div class="col white-place">
+				<h4>Background</h4>
+				<input
+					class="secondary backg-white"
+					type="text"
+					placeholder="default, secondary"
+				/>
+				<input
+					class="info rounded backg-white"
+					type="text"
+					placeholder="rounded, info"
+				/>
+				<input
+					class="warning curved backg-white"
+					type="text"
+					placeholder="curved, warning"
+				/>
+			</div>
+		</div>
+	</body>
+</html>
