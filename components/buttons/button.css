@@ -7,17 +7,11 @@ body {
 	min-height: 90vh;
 }
 
-h2,
-h4 {
-	letter-spacing: 2px;
-}
-
 button {
 	min-width: 60px;
 	margin-right: 15px;
 	height: 30px;
 	border: none;
-	outline: none;
 	color: white;
 	cursor: pointer;
 }
@@ -31,17 +25,6 @@ button:hover {
 	100% {
 		opacity: 1;
 	}
-}
-
-.container {
-	position: relative;
-}
-.row {
-	display: flex;
-	justify-content: center;
-}
-.row .col {
-	margin: 0 25px;
 }
 
 .rounded-buttons button {
